@@ -5,9 +5,11 @@ The easiest way to to host a plastic API, is on heroku.
 
 ## How to run this
 
-* bundle install
-* rackup
-* open http://localhost:9292
+Tested with ruby-2.1.2
+
+    bundle install
+    rackup
+    open http://localhost:9292
 
 ## Why?
 
