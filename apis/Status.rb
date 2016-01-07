@@ -5,7 +5,6 @@ module Status
     # format :json
     # prefix :api
 
-    desc 'A typical CRUD resource.'
     resource :statuses do
       desc 'Return a status.'
       params do
