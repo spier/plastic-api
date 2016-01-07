@@ -16,7 +16,7 @@ Often the easiest way to agree on the requirements for an API, is to write a moc
 and response formats. The mockup data returned by such an API can be as realistic as you need it to be.
 
 It took a while to get this stack (below) to work, as there are various compatibility issues.
-As I did not want to run into this problem every time I create a mock, I created this boilerplate repo to start from.
+As I did not want to run into this problem every time I create a mock, I created this boilerplate repo.
 
 That being said, be careful when you upgrade either of the components of the stack!
 
