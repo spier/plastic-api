@@ -22,25 +22,25 @@ That being said, be careful when you upgrade either of the components of the sta
 
 ## Deploying to heroku
 
-Deploy is the usual piece of case [with heroku|https://devcenter.heroku.com/articles/git].
+Deploy is the usual piece of case [with heroku](https://devcenter.heroku.com/articles/git).
 
 Create the app
 
-  heroku create
-  Creating falling-wind-1624... done, stack is cedar-14
-  http://falling-wind-1624.herokuapp.com/ | https://git.heroku.com/falling-wind-1624.git
-  Git remote heroku added
+    heroku create
+    Creating falling-wind-1624... done, stack is cedar-14
+    http://falling-wind-1624.herokuapp.com/ | https://git.heroku.com/falling-wind-1624.git
+    Git remote heroku added
 
 Then deploy new version with
 
-  git push heroku master
+    git push heroku master
 
 ## Stack
 
 This projects is a working example of a combination of
-- [grape](https://github.com/ruby-grape/grape) (DSL for API generation)
-- [grape-swagger](https://github.com/ruby-grape/grape-swagger) (generating swagger.json specs for a grape API)
-- [swagger-ui](https://github.com/swagger-api/swagger-ui) (turns swagger.json specs into the nice interactive API console that you see in the browser)
+- [grape](https://github.com/ruby-grape/grape) - DSL for API generation
+- [grape-swagger](https://github.com/ruby-grape/grape-swagger) - generating Sswagger Spec for a grape API
+- [swagger-ui](https://github.com/swagger-api/swagger-ui) - turns swagger.json specs into the nice interactive API console that you see in the browser
 
 ## TODO
 
@@ -52,4 +52,3 @@ This projects is a working example of a combination of
 ## License
 
 Later :)
-
