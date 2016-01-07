@@ -22,14 +22,13 @@ That being said, be careful when you upgrade either of the components of the sta
 
 ## Deploying to heroku
 
-Deploy is the usual piece of case [with heroku](https://devcenter.heroku.com/articles/git).
+See a sample deployment at https://plastic-api.herokuapp.com
+
+Deploying is the usual piece of case [with heroku](https://devcenter.heroku.com/articles/git).
 
 Create the app
 
     heroku create
-    Creating falling-wind-1624... done, stack is cedar-14
-    http://falling-wind-1624.herokuapp.com/ | https://git.heroku.com/falling-wind-1624.git
-    Git remote heroku added
 
 Then deploy new version with
 
@@ -39,7 +38,7 @@ Then deploy new version with
 
 This projects is a working example of a combination of
 - [grape](https://github.com/ruby-grape/grape) - DSL for API generation
-- [grape-swagger](https://github.com/ruby-grape/grape-swagger) - generating Sswagger Spec for a grape API
+- [grape-swagger](https://github.com/ruby-grape/grape-swagger) - generating Swagger Spec for a grape API
 - [swagger-ui](https://github.com/swagger-api/swagger-ui) - turns swagger.json specs into the nice interactive API console that you see in the browser
 
 ## TODO
@@ -51,4 +50,4 @@ This projects is a working example of a combination of
 
 ## License
 
-Later :)
+[MIT License (MIT)](http://spier.mit-license.org/)
