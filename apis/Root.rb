@@ -48,8 +48,7 @@ module API
                                   :contact_email => "sebastian@spier.hu",
                                   :contact_url => "http://spier.hu",
                                   :license => "MIT License",
-                                  :license_url => "http://spier.mit-license.org/",
-                                  :terms_of_service_url => "https://github.com/spier/plastic-api"
+                                  :license_url => "http://spier.mit-license.org/"
                               }
   end
   
