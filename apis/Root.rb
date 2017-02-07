@@ -40,7 +40,6 @@ module API
     # see https://github.com/ruby-grape/grape-swagger
     add_swagger_documentation :hide_documentation_path => false,
                               :doc_version => 'v1',
-                              :markdown => GrapeSwagger::Markdown::KramdownAdapter.new({}),
                               :hide_format => true,
                               :info => {
                                   :title => "An API containing only plastic",

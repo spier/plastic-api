@@ -6,7 +6,6 @@ gem 'grape'
 gem 'grape-swagger'
 gem 'rack-cors'
 gem 'activesupport', :require => 'active_support/core_ext/hash/conversions'
-gem 'kramdown'
 
 # gem 'htmlentities'
 # gem 'nokogiri'
