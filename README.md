@@ -51,7 +51,7 @@ Also contains some good examples of how to build APIs with grape.
 
 ## TODO
 
-- grape-swagger current generates Swagger Spec 1.2. Upgrading this to Swagger Spec 2.0 would be good
+- upgrade to latest swagger-ui / at time of writing 2.2.10
 - remove gems that are not needed
 - provide some better sample APIs
 - explain what can be done with rake (i.e. Show all API paths in the console)
