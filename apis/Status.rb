@@ -6,7 +6,11 @@ module Status
     # prefix :api
 
     resource :statuses do
-      desc 'Return a status.'
+
+      desc 'Get all kittens!' do
+        detail 'this will expose all the kittens'
+      end
+      # desc('Return a status.', detail: "Some other thing")
       params do
         requires :id, type: Integer, desc: 'Status id.'
       end
@@ -47,8 +51,9 @@ module Status
         requires :id, type: String, desc: 'Status ID.'
       end
       delete ':id' do
-
+        # do nothing
       end
+
     end
   end
 end

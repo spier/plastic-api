@@ -22,10 +22,10 @@ module API
     default_format :json
 
     # rescue all errors and return them as an API response
-    rescue_from :all, :backtrace => true
+    rescue_from :all, :backtrace => false
 
     # CORS - just accept all requests from anywhere
-    # https://github.com/intridea/grape#cors
+    # https://github.com/ruby-grape/grape#cors
     use Rack::Cors do
       allow do
         origins '*'
@@ -37,11 +37,21 @@ module API
     mount Status::API
 
     # generates JSON calls for Swagger
+    # see https://github.com/ruby-grape/grape-swagger
     add_swagger_documentation :hide_documentation_path => false,
-                              :api_version => "v1",
-                              :markdown => GrapeSwagger::Markdown::KramdownAdapter,
+                              :doc_version => 'v1',
+                              :markdown => GrapeSwagger::Markdown::KramdownAdapter.new({}),
                               :hide_format => true,
-                              :info => { :contact => "sebastian@spier.hu", :title => "A plastic API title", :description => "A plastic API description" }
+                              :info => {
+                                  :title => "An API containing only plastic",
+                                  :description => "Generates a swagger 2.0 compliant API description. Sources at https://github.com/spier/plastic-api",
+                                  :contact_name => "Sebastian Spier",
+                                  :contact_email => "sebastian@spier.hu",
+                                  :contact_url => "http://spier.hu",
+                                  :license => "MIT License",
+                                  :license_url => "http://spier.mit-license.org/",
+                                  :terms_of_service_url => "https://github.com/spier/plastic-api"
+                              }
   end
   
 end

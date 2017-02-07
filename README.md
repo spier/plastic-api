@@ -5,7 +5,7 @@ The easiest way to to host a plastic API, is on heroku.
 
 ## How to run this
 
-Tested with ruby-2.1.2
+Tested with ruby-2.3
 
     bundle install
     rackup
@@ -26,7 +26,7 @@ That being said, be careful when you upgrade either of the components of the sta
 
 See a sample deployment at https://plastic-api.herokuapp.com
 
-Deploying is the usual piece of case [with heroku](https://devcenter.heroku.com/articles/git).
+Deploying to heroku is explained at https://devcenter.heroku.com/articles/git.
 
 Create the app
 
@@ -39,16 +39,23 @@ Then deploy new version with
 ## Stack
 
 This projects is a working example of a combination of
-- [grape](https://github.com/ruby-grape/grape) (0.14.0) - DSL for API generation
-- [grape-swagger](https://github.com/ruby-grape/grape-swagger) (0.10.2) - generating Swagger Spec for a grape API (generateds Swagger Spec v1.2)
-- [swagger-ui](https://github.com/swagger-api/swagger-ui) (2.1.4) - turns swagger.json specs into the nice interactive API console that you see in the browser
+
+- [grape](https://github.com/ruby-grape/grape) (0.17.0) - DSL for API generation
+- [grape-swagger](https://github.com/ruby-grape/grape-swagger) (0.22.0) - generating Swagger Spec for a grape API (generates Swagger Spec v2.0)
+- [swagger-ui](https://github.com/swagger-api/swagger-ui) (2.1.5) - turns swagger.json specs into the nice interactive API console that you see in the browser
+
+## Similar projects
+
+https://github.com/ruby-grape/grape-on-rack has the same Stack but doesn't not include the swagger-ui.
+Also contains some good examples of how to build APIs with grape.
 
 ## TODO
 
 - grape-swagger current generates Swagger Spec 1.2. Upgrading this to Swagger Spec 2.0 would be good
 - remove gems that are not needed
-- provide some good sample APIs
+- provide some better sample APIs
 - explain what can be done with rake (i.e. Show all API paths in the console)
+- add localization for 'de' to swagger-ui (what is this good for?)
 
 ## License
 
