@@ -1,7 +1,8 @@
 # Plastic API
 
 Plastic API is a boilerplate for building API mockups with grape and swagger.
-The easiest way to to host a plastic API, is on heroku.
+
+The easiest way to host an API mockup based on this, is on heroku.
 
 ## How to run this
 
