@@ -41,9 +41,9 @@ Then deploy new version with
 
 This projects is a working example of a combination of
 
-- [grape](https://github.com/ruby-grape/grape) (0.19.1) - DSL for API generation
-- [grape-swagger](https://github.com/ruby-grape/grape-swagger) (0.26.1) - generating Swagger Spec for a grape API (generates Swagger Spec v2.0)
-- [swagger-ui](https://github.com/swagger-api/swagger-ui) (2.1.5) - turns swagger.json specs into the nice interactive API console that you see in the browser
+- [grape](https://github.com/ruby-grape/grape) (0.19.2) - DSL for API generation
+- [grape-swagger](https://github.com/ruby-grape/grape-swagger) (0.27.0) - generating Swagger Spec for a grape API (generates Swagger Spec v2.0)
+- [swagger-ui](https://github.com/swagger-api/swagger-ui) (2.1.5) - turns swagger.json specs into a nice interactive API console that runs in the browser
 
 ## Similar projects
 
