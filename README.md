@@ -1,8 +1,8 @@
 # Plastic API
 
-Plastic API is a boilerplate for building API mockups with grape and swagger.
+Plastic API is a boilerplate for building API mockups with ruby, using grape and [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification) (aka swagger specs).
 
-The easiest way to host an API mockup based on this, is on heroku.
+The easiest way to host an API mockup based on this, is on [heroku](https://www.heroku.com).
 
 ## How to run this
 
